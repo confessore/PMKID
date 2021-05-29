@@ -2,7 +2,7 @@
 
 sudo apt update
 sudo apt install -y libcurl4-openssl-dev libssl-dev zlib1g-dev libpcap-dev
-sudo apt remove hashcat
+sudo apt remove -y  hashcat
 git clone https://github.com/hashcat/hashcat
 cd hashcat
 git submodule update --init
