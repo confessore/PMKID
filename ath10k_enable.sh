@@ -11,6 +11,6 @@ sudo mv /lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin /lib/firmware/ath10k/Q
 sudo mv firmware-6.bin /lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin
 sudo modprobe -r ath10k_pci
 sudo modprobe -r ath10k_core
-sudo modprobe ath10k_core rawmod=1 cryptmode=1
+sudo modprobe ath10k_core rawmode=1 cryptmode=1
 sudo modprobe ath10k_pci
 sudo airmon-ng check kill
